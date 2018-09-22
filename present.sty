@@ -15,6 +15,10 @@
 \useinnertheme{default}
 \beamertemplatenavigationsymbolsempty
 
+\newcommand\Largeplus{\@setfontsize\semiHuge{13.72}{16.38}}
+\setbeamerfont{frametitle}{size=\Largeplus}
+%\setbeamerfont{frametitle}{size=\huge}
+
 % serif config:
 %\usefonttheme{serif}
 %\usepackage{palatino}
@@ -301,9 +305,9 @@ font={scriptsize, color=gray}, skip=3pt} %for image citations
 \setbeamercolor{framesource}{fg=gray}
 \setbeamerfont{framesource}{size=\normalfont}
 
-\newcommand{\source}[1]{\footnotesize\begin{textblock*}{4cm}(8.7cm,8.6cm)
+\newcommand{\source}[1]{\footnotesize\begin{textblock*}{8cm}(4.7cm,8.6cm)
     \begin{beamercolorbox}[ht=0.75cm,right]{framesource}
-        \usebeamerfont{framesource}\usebeamercolor[fg]{framesource}{#1}
+        \usebeamerfont{framesource}\usebeamercolor[fg]{framesource}{\normalsize #1}
     \end{beamercolorbox}
 \end{textblock*}}
         
