@@ -1,5 +1,5 @@
 
-\begin{frame}{Rewiring anisotropic networks}
+\begin{frame}{\only<1-8>{Rewiring anisotropic networks}\only<9>{Distance-dependent network}}
   %
   \vspace{-0.8cm}
   \begin{columns}
@@ -9,10 +9,12 @@
 
       \begin{figure}
         \centering
-        \includegraphics<1-3>[width=0.925\textwidth]{%
+        \includegraphics<1-5>[width=0.925\textwidth]{%
           figures/fig2AD_network_1cell_targets_158-aniso.png} %
-        \includegraphics<4->[width=0.925\textwidth]{%
+        \includegraphics<6-8>[width=0.925\textwidth]{%
           figures/fig2AD_network_1cell_targets_158-rew.png} %
+        \includegraphics<9>[width=0.925\textwidth]{%
+          figures/fig2AD_network_1cell_targets_14-dist.png} %
       \end{figure}
       
       
@@ -27,15 +29,24 @@
       
       \begin{center}
       \only<2>{\begin{overpic}[width=0.87\textwidth, frame=1pt]{%
+            figures/figE_0.pdf}
+        \end{overpic}}%
+      \only<3>{\begin{overpic}[width=0.87\textwidth, frame=1pt]{%
+            figures/figE_1.pdf}
+        \end{overpic}}%
+      \only<4>{\begin{overpic}[width=0.87\textwidth, frame=1pt]{%
             figures/figE.pdf}
-      \end{overpic}}
-      \only<3-4>{\begin{overpic}[width=0.87\textwidth, frame=1pt]{%
+      \end{overpic}}%
+      \only<5-6>{\begin{overpic}[width=0.87\textwidth, frame=1pt]{%
             figures/figF.pdf}
-        \end{overpic}}
-
-      \only<5>{\vspace{0.5cm}\begin{overpic}[width=\textwidth]{%
+        \end{overpic}}%
+      \only<7>{\vspace{0.5cm}\begin{overpic}[width=\textwidth]{%
             figures/netw_dist-dep_aniso-rew.pdf}
+        \end{overpic}}%      
+      \only<8->{\vspace{0.5cm}\begin{overpic}[width=\textwidth]{%
+            figures/netw_dist-dep_aniso-rew-dist.pdf}
         \end{overpic}}      
+
 
       \end{center}
       
