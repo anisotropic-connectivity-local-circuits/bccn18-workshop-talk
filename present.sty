@@ -311,7 +311,13 @@ font={scriptsize, color=gray}, skip=3pt} %for image citations
         \usebeamerfont{framesource}\usebeamercolor[fg]{framesource}{\normalsize #1}
     \end{beamercolorbox}
 \end{textblock*}}
-        
+
+\newcommand{\rsource}[1]{\footnotesize\begin{textblock*}{8cm}(0.1cm,8.6cm)
+    \begin{beamercolorbox}[ht=0.75cm,left]{framesource}
+        \usebeamerfont{framesource}\usebeamercolor[fg]{framesource}{\normalsize #1}
+    \end{beamercolorbox}
+\end{textblock*}}
+
 
 
 % ---------- some colours ------------ %
