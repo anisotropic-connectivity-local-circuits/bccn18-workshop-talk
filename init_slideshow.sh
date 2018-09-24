@@ -1,3 +1,3 @@
 #!/bin/bash
 
-pdfpc 18_lab_present.pdf
+pdfpc 18_BCCN.pdf
