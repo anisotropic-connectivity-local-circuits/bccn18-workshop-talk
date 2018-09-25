@@ -1,25 +1,41 @@
 \begin{frame}{The dynamic connectome}
 
-  \Large
-  At the synapse level, brain circuitry is constantly making new connections and abolishing old ones \nocite{Rumpel2016}
+   % \vspace{0.4cm}
 
-  \vspace{0.4cm}
-  \only<2->{\vspace{-0.15cm}}
   
-  \begin{figure}
-    \centering
-    \includegraphics<1>[height=0.5\textheight]{%
+
+    % 
+    \begin{columns}
+      % 
+      \begin{column}{.85\textwidth}
+
+        
+          \begin{figure}
+            \hfill
+    \includegraphics<1>[width=0.95\textwidth]{%
       figures/Loewenstein2015_Fig1A.png} %
-    \includegraphics<2->[height=0.5\textheight]{%
-      figures/Loewenstein2015_Fig1B.png} %
-    \includegraphics<2->[height=0.5\textheight]{%
-      figures/Loewenstein2015_Fig2A.png} %
   \end{figure}
-  
-  \source{\cite{Loewenstein2015}}
+        
+
+      \end{column}
+      % 
+      \begin{column}{.15\textwidth}
+        \minipage[c][0.65\textheight][s]{\columnwidth}
+        \LARGE
+        \vspace{2.3cm}
+        Day 0
+
+        \vspace{1.4cm}
+        Day 4        
+        \endminipage              
+      \end{column}
+    \end{columns}
+    
+
+
 
   \pnote{
-
+        
     - chronic two-photon imaging through\\
     a cranial window
     
@@ -33,46 +49,73 @@
        
     
   }
+
+  
+  \source{\cite{Loewenstein2015}}
+
   
 \end{frame}
 
 
 \begin{frame}{Robust nonrandom connectivity patterns}
+  % 
+  \begin{columns}
+    % 
+    \begin{column}{.45\textwidth}
+      \minipage[c][0.75\textheight][s]{\columnwidth}
+      
+      \begin{figure}
+        \centering
+        \includegraphics[width=\textwidth]{%
+          figures/Perin2011_Fig1ABC.png} %
+      \end{figure}
+      
 
-  
-  \begin{figure}
-    \centering
-    \includegraphics<1>[height=0.68\textheight]{%
-      figures/Song2005_Fig2.png} %    
-    \includegraphics<2>[height=0.7\textheight]{%
-      figures/Song2005_Fig4B.png} %
-    \includegraphics<3>[height=0.7\textheight]{%
-      figures/Perin2011_Fig2AB_select.jpg} %
-  \end{figure}
+      
+      \endminipage      
+    \end{column}
+    % 
+    \begin{column}{.55\textwidth}
+      \onslide<2->
 
+      \vspace{-0.2cm}
+      
+      \begin{figure}
+        \centering
+        \includegraphics[width=0.525\textwidth]{%
+          figures/two_neuron.png} %
+      \end{figure}
 
-  
-  \Large
-  \only<1>{\vspace{0.1cm}\begin{center}
-      \textbf{1.} Overrepresentation of reciprocal connections
-    \end{center}}
-  \only<2>{
-    \begin{center}
-      \textbf{2.} Characteristic occurrence of triplet motifs
-    \end{center}}
-  \only<3>{
-    \begin{center}
-      \textbf{3.} High degree of connectivity in clusters occurs frequently
-    \end{center}}
+      \vfill
+      
+      \onslide<3->
+      \begin{figure}
+        \centering
+        \includegraphics[width=\textwidth]{%
+        figures/Perin2011_FigS2_custom.png} %
+      \end{figure}
 
+      \vfill
+      
+      \onslide<4->
+      \begin{figure}
+        \centering
+        \includegraphics[width=0.7\textwidth]{%
+          figures/clust_all.png} %
+      \end{figure}
+      
+      \vfill
 
-  
-\only<1>{\source{\cite{Song2005}}}
-\only<2>{\source{\cite{Song2005, Perin2011}}}
-\only<3>{\source{\cite{Perin2011}}}
+      
+    \end{column}
+  \end{columns}
+
+  \source{\cite{Perin2011, Song2005, Markram1997, Miner2016, Gal2017,
+      Vegue2017}}
 
   \pnote{
-
+    
+    These nonrandom structures are well established and have been reported both, 
     
   }
   

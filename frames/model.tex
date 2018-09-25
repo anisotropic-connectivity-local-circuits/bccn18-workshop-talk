@@ -1,81 +1,78 @@
 \begin{frame}{Anisotropic network model}
 
-  % 
-  \begin{columns}
-    % 
-    \begin{column}{.5\textwidth}
-      \minipage[c][0.65\textheight][s]{\columnwidth}
+  \begin{center}
+    
+    \only<1>{\begin{overpic}[height=0.7\textheight]{%
+          figures/aniso_model_1.png}
+      \end{overpic}}
 
-      \begin{center}
+    \only<2>{\begin{overpic}[height=0.7\textheight]{%
+          figures/aniso_model_2.png}
+      \end{overpic}}
 
-        \only<1>{\begin{overpic}[height=0.6\textheight]{%
-              figures/aniso_model_0.png}
-          \end{overpic}}
+    \only<3>{\begin{overpic}[height=0.7\textheight]{%
+          /home/fh/sci/rsc/aniso_netw/pub/arxiv18/figures/aniso_network_model/src/red1.pdf}
+        \put(34.9,50.5){\fboxsep=3pt\colorbox{white}{\LARGE$\alpha$}}
+      \end{overpic}}
 
-        \only<2>{\begin{overpic}[height=0.6\textheight]{%
-              figures/aniso_model_1.png}
-          \end{overpic}}
+    \only<4>{\begin{overpic}[height=0.7\textheight]{%
+          /home/fh/sci/rsc/aniso_netw/pub/arxiv18/figures/aniso_network_model/src/red2.png}
+      \end{overpic}}
 
-        \only<3>{\begin{overpic}[height=0.6\textheight]{%
-              figures/aniso_model_2.png}
-          \end{overpic}}
+    \only<5>{\begin{overpic}[height=0.7\textheight]{%
+          /home/fh/sci/rsc/aniso_netw/pub/arxiv18/figures/aniso_network_model/src/red3.png}
+      \end{overpic}}
 
-        \only<4>{\begin{overpic}[height=0.6\textheight]{%
-              figures/aniso_model_3.png}
-            \put(34.9,50.5){\fboxsep=3pt\colorbox{white}{\LARGE$\alpha$}}
-          \end{overpic}}
+    \only<6>{\begin{overpic}[height=0.7\textheight]{%
+          /home/fh/sci/rsc/aniso_netw/pub/arxiv18/figures/aniso_network_model/src/red4.png}
+      \end{overpic}}
 
-        \only<5>{\begin{overpic}[height=0.6\textheight]{%
-              figures/aniso_model_4.png}
-            \put(41,44.5){\Large $\frac{w}{2}$}
-            \put(31.9,37.5){\Large $\frac{w}{2}$}
-          \end{overpic}}
+    \only<7>{\begin{overpic}[height=0.7\textheight]{%
+          /home/fh/sci/rsc/aniso_netw/pub/arxiv18/figures/aniso_network_model/src/red5.png}
+      \end{overpic}}
 
-        \only<6>{\begin{overpic}[height=0.6\textheight]{%
-              figures/aniso_model_5.png}
-          \end{overpic}}
+    \only<8>{\begin{overpic}[height=0.7\textheight]{%
+          /home/fh/sci/rsc/aniso_netw/pub/arxiv18/figures/aniso_network_model/src/red6.png}
+      \end{overpic}}
 
-        \only<7>{\begin{overpic}[height=0.6\textheight]{%
-              figures/aniso_model_6.png}
-          \end{overpic}}
+    \only<9>{\begin{overpic}[height=0.7\textheight]{%
+          /home/fh/sci/rsc/aniso_netw/pub/arxiv18/figures/aniso_network_model/src/red7.png}
+      \end{overpic}}
 
-        
-      \end{center}
-      
-      \endminipage      
 
-    \end{column}
-    % 
-    \begin{column}{.5\textwidth}
-      \minipage[c][0.65\textheight][s]{\columnwidth}
-      \large
-      \vspace{0.25cm}
-      \onslide<1->
-      Distribute $N=1000$ neurons randomly on a square surface
 
-      \vfill
-      \onslide<3->
-      For each neuron\\[-0.2cm]
+  \end{center}
 
-      \begin{itemize}[leftmargin=0.5cm]
+  \rsource{\textcolor{black}{$N=1000$}}
 
-        \itemsep8pt
-        
-       \item<4->[-] assign a random angle $\alpha$ 
+\end{frame}
 
-       \item<5->[-] find targets within distance $w/2$ of
-         $\alpha$-projection
 
-       \item<6->[-] connect to targets
-         
-      \end{itemize}
-     
-      \vspace{1.05cm}
-      
-      \endminipage      
-    \end{column}
-  \end{columns}
+\begin{frame}{Anisotropic network model -- Distance-dependency}
 
-  % \source{Hoffmann \& Rotter, in prep.}
+  \begin{figure}
+    \centering
+    \includegraphics<1>[width=1.1\textwidth]{%
+      /home/fh/sci/lab/aniso_netw/ploscb_18/fig/slides/fig3C_2n_dstprf_extr.png} %
+    \includegraphics<2>[width=1.1\textwidth]{%
+      /home/fh/sci/lab/aniso_netw/ploscb_18/fig/slides/fig3C_2n_dstprf_extr_wfit.png} %
+  \end{figure}
+  
+  
+\end{frame}
+
+
+
+\begin{frame}{Anisotropic network model}
+
+  \begin{center}
+
+    \only{\begin{overpic}[height=0.7\textheight]{%
+          /home/fh/sci/rsc/aniso_netw/pub/arxiv18/figures/aniso_network_model/src/red7.png}
+      \end{overpic}}
+
+  \end{center}
+
+  % \rsource{\textcolor{black}{$N=1000$}}
 
 \end{frame}

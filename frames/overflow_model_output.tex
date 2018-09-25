@@ -1,0 +1,114 @@
+
+\begin{frame}{Anisotropic network model}
+  % 
+  \begin{columns}
+    % 
+    \begin{column}{.5\textwidth}
+
+      \begin{overpic}[width=0.425\textwidth]{%
+          figures/aniso_model_targets_1.png}
+      \end{overpic} \hspace{0.1cm}
+      \begin{overpic}[width=0.425\textwidth]{%
+          figures/aniso_model_targets_3.png}
+      \end{overpic}
+
+      \begin{overpic}[width=0.425\textwidth]{%
+          figures/aniso_model_targets_6.png}
+      \end{overpic} \hspace{0.1cm}
+      \begin{overpic}[width=0.425\textwidth]{%
+          figures/aniso_model_targets_5.png}
+      \end{overpic}
+
+
+      \only<1>{
+        \begin{overpic}[width=0.425\textwidth]{%
+            figures/aniso_model_targets_8.png}
+        \end{overpic} \hspace{0.1cm}
+        \begin{overpic}[width=0.425\textwidth]{%
+            figures/aniso_model_targets_7.png}
+        \end{overpic}
+
+        \begin{center}
+        targets
+      \end{center}}
+
+      \only<2->{\vspace{-0.1cm}\begin{center}
+          \begin{overpic}[width=0.43\textwidth, frame=1pt]{%
+              figures/pres_seq_ax8.pdf}
+            \put(76.5,91.5){{\normalfont \tiny
+                \textcolor{white}{\SI{100}{\micro\metre}}}}
+          \end{overpic}
+        \end{center}}
+
+      
+    \end{column}
+    % 
+    \begin{column}{.5\textwidth}
+
+      \only<1-2>{
+      \begin{overpic}[width=0.425\textwidth]{%
+          figures/aniso_model_inputs_5.png}
+      \end{overpic} \hspace{0.1cm}
+      \begin{overpic}[width=0.425\textwidth]{%
+          figures/aniso_model_inputs_1.png}
+      \end{overpic}
+
+      \begin{overpic}[width=0.425\textwidth]{%
+          figures/aniso_model_inputs_3.png}
+      \end{overpic} \hspace{0.1cm}
+      \begin{overpic}[width=0.425\textwidth]{%
+          figures/aniso_model_inputs_4.png}
+      \end{overpic}
+
+      
+      \only<1>{
+        \begin{overpic}[width=0.425\textwidth]{%
+            figures/aniso_model_inputs_7.png}
+        \end{overpic} \hspace{0.1cm}
+        \begin{overpic}[width=0.425\textwidth]{%
+            figures/aniso_model_inputs_2.png}
+        \end{overpic}
+
+        \begin{center}
+        inputs
+      \end{center}
+}
+
+      \only<2>{\vspace{-0.1cm}\begin{center}
+          \begin{overpic}[width=0.43\textwidth, frame=1pt]{%
+              figures/pres_seq_dend4.pdf}
+            \put(76.5,91.5){{\normalfont \tiny
+                \textcolor{white}{\SI{100}{\micro\metre}}}}
+          \end{overpic}
+        \end{center}}
+    }
+    \only<3>{ \large
+
+      \textit{Model parameters}\\[0.6cm]
+
+      \begin{itemize}[leftmargin=0.2cm]
+
+        \itemsep8pt
+
+        \item Number of nodes $N=1000$
+        \item edge length of surface $l = \text{\SI{296}{\micro\meter}}$
+        \item width $w = \SI{74.6}{\micro\meter}$
+        
+        \end{itemize}
+
+        \vspace{1cm}
+            
+        \begin{tabular}{|p{0.9\textwidth}}
+          $l$ and $w$ tuned to give connection density of $p=0.116$
+        \end{tabular}
+
+        \vspace{1cm}
+
+    }
+
+      
+      
+    \end{column}
+  \end{columns}
+  
+\end{frame}
